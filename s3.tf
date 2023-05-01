@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "example" {
   bucket = "bucket-created-through-iac"
 }
 resource "aws_s3_bucket" "exampleeee" {
-  bucket = " destination-bucket-created-through-iac"
+  bucket = "destination-bucket-created-through-iac"
   server_side_encryption_configuration {
     rule {
       apply_server_side_encryption_by_default {
