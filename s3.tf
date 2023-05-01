@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "example-bucket"
+  bucket = "bucket-created-through-iac"
 }
 
 resource "aws_s3_bucket_object" "example" {
